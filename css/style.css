@@ -76,3 +76,23 @@
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px;
 }
+.cards-section {
+    display: grid;
+    background-color: papayawhip;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.card-item {
+    margin-bottom: 50px;
+}
+.cards-titles {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.img-card {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+}
