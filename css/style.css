@@ -147,3 +147,39 @@
 .link-learn-more a {
     text-decoration: none;
 }
+/*Footer*/
+footer {
+    background-color: black;
+    width: 100%;
+}
+.lists-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 50px;
+}
+.list {
+    color: white;
+}
+.list a {
+    text-decoration: none;
+    color: white;
+}
+.list ul {
+    list-style: none;
+}
+.list h2, h3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.list-1, .list-2, .list-3, .list-4 {
+    place-self: start center;
+}
+.list-5 {
+    place-self: end center;
+}
+.footer-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
