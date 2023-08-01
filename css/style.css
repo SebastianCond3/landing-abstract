@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+/*Header*/
 .header {
     display: flex;
     place-content: center;
@@ -51,6 +52,7 @@
     border: white solid 1px;
     background-color: black;
 }
+/*Main-search*/
 .soft-violet-section {
     display: flex;
     place-content: center;
@@ -76,6 +78,7 @@
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px;
 }
+/*Main-cards*/
 .cards-section {
     display: grid;
     margin: 80px 0;
